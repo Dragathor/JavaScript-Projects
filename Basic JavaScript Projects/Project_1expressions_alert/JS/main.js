@@ -30,3 +30,8 @@ function My_First_Function () { //Defining Fiction and giving name
     document.getElementById("Button_Text").innerHTML = str; 
     // Telling finction where to look in html doc via ID
 }
+
+function My_First_Function_Extended () {
+    document.b.style.backgroundColor = "blue";
+    document.getElementById("Button_Text")
+}
