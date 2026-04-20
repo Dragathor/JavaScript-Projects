@@ -8,4 +8,4 @@ What is JavaScript? - Started
 What is JavaScript? - Finished
 
 JavaScript Fundamentals - Started
-1.2.0
+1.2.0 Finished Projects 1: Project_1expressions_alert, 2: Project2_functions and 3: Project3_math_operators of JS basics
