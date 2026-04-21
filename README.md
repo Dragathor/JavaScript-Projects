@@ -11,3 +11,4 @@ JavaScript Fundamentals - Started
 1.2.0 Finished Projects 1: Project_1expressions_alert, 2: Project2_functions and 3: Project3_math_operators of JS basics
 1.2.1 Finished Project 4: Project4_Dictionaries
 1.2.2 Finished Project 5: Project5_Comparisons_Type_Coercion Assignment
+1.2.3 Finished Project 6: Project6_Ternary_Operators_Constructors Assignment
