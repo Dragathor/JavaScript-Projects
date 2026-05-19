@@ -13,3 +13,4 @@ JavaScript Fundamentals - Started
 1.2.2 Finished Project 5: Project5_Comparisons_Type_Coercion Assignment
 1.2.3 Finished Project 6: Project6_Ternary_Operators_Constructors Assignment
 1.2.4 Finished Project7_scope_time_function Assignment
+1.2.5 Finished Project8_string_methods assignment
