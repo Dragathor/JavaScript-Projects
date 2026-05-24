@@ -15,3 +15,4 @@ JavaScript Fundamentals - Started
 1.2.4 Finished Project7_scope_time_function Assignment
 1.2.5 Finished Project8_string_methods Assignment
 1.2.6 Finished Project_9_Countdown_slideshow Assignment
+1.2.6.5 Started Project10_loops_arrays
