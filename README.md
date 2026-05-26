@@ -18,3 +18,4 @@ JavaScript Fundamentals - Started
 1.2.6.5 Started Project10_loops_arrays
 1.2.7 Finished Project10_loops_arrays Assignment
 1.2.7.5 Finished Writing Code in JavaScript module
+1.2.8 Finished Contact Form Challenge and started JavaScript Libraries and Frameworks

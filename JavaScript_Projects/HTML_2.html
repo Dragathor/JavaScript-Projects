@@ -3,18 +3,20 @@
     <head>
         <meta charset="utf8">
         <title>Java Script Projects</title>
-        <link rel="stylesheet" href="text/css" href="./CSS/CSS_1.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/CSS_Java_1.css">
     </head>
 
     <body>
 
         <div class="form_box">
-            <form action="" method="post">
-                <input type="text" value="" placeholder="First Name">
-                <input type="text" value="" placeholder="Last Name">
-                <input type="text" value="" placeholder="Email">
-                <input type="text" value="" placeholder="Contact Number">
-            </form>
+            <p>Please enter your details below.</p>
+            <ul><form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <li><input name="fname" type="text" value="" placeholder="First Name"></li>
+                <li><input name="lname" type="text" value="" placeholder="Last Name"></li>
+                <li><input name="email" type="text" value="" placeholder="Email"></li>
+                <li><input name="numb" type="text" value="" placeholder="Contact Number"></li>
+                <li><input type="submit" value="Click to Submit"></li>
+            </form></ul>
         </div>
 
     <script src="./JavaScript/JavaScript_2.js"></script>
