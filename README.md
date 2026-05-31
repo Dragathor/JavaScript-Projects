@@ -20,3 +20,4 @@ JavaScript Fundamentals - Started
 1.2.7.5 Finished Writing Code in JavaScript module
 1.2.8 Finished Contact Form Challenge and started JavaScript Libraries and Frameworks
 1.2.9 Finished JavaScript Libraries and Frameworks and Tic Tac Toe (notation still outstanding on .js file)
+1.2.9.5 Finished TicTacToe notation and pushed
