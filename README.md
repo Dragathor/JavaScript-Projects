@@ -22,3 +22,4 @@ JavaScript Fundamentals - Started
 1.2.9 Finished JavaScript Libraries and Frameworks and Tic Tac Toe (notation still outstanding on .js file)
 1.2.9.5 Finished TicTacToe notation and pushed
 1.2.10 Finished Calculator Project
+1.2.11 Finished Pizza_Javascript page
