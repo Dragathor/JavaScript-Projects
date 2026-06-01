@@ -66,4 +66,108 @@ div {
 
 ul {
     list-style: none;
+    position: fixed;
+    bottom: 0;
+    left: 80%;
+    transform: translate(-50%);
+}
+
+h1 {
+    font-size: 6vw;
+    z-index: 10;
+    animation: zoominoutsinglefeatured 5s forwards;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+body {
+  opacity: 1;
+  transition: 3s opacity;
+  background-image: url(../Img/pngtree-monster.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 20%;
+  animation: mymove 5s;
+  position: relative;
+  
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  list-style: none;
+  position: sticky;
+  bottom: 0;
+  left: 81.5%;
+  bottom: 2%;
+  transform: translate(-50%);
+  padding: 8px 10px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-popup {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* Setting for page move on body from bottom to top on page load */
+@keyframes mymove {
+  from {top: 200px;}
+  to {top: 0px;}
+}
+
+
+/* Zoom display settings for h1 on page load */
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
 }

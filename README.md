@@ -26,3 +26,13 @@ JavaScript Fundamentals - Started
 1.3.1 Finished AJAX Basics
 1.3.2 Finished jQuery Assignment
 1.3.3 Finished React Projects
+1.3.4 Applied challenges to Pizza_Project:
+        Vw Unit Challenge
+        Fade Challenge
+        Form Challenge (no php for verification)
+        Popup Contact Form Challenge
+        Animation Challenge
+        Zoom In and Out Challenge
+        Bookmark Challenge
+        Sticky Challenge
+1.3.4.5 Applied Automatic Slideshow Challenge to Calculator

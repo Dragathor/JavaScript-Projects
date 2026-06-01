@@ -7,13 +7,18 @@
         <script src="Pizza_JavaScript/Pizza.js" defer></script>
         <link rel="stylesheet" type="text/css" href="Pizza_CSS/Pizza.css"/>
     </head>
-
     <body>
+        <script> //Fade in effect on page load
+            document.body.classList.add('fade-out');
+            window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fade-out');
+            });
+        </script>
 
         <div id="menuBG">
             <h1 style="margin: 0 0px 20px;">Pizza Drill Tutorial</h1>
-            <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
-            
+            <input id="btnOrder" type="button" onclick="getReceipt(), openForm()" value="Place Order">
+            <a href="#foot">Go to footer</a>
             <form id="frmMenu">
                 <div class="box">
                 <div class="menu left">
@@ -34,7 +39,7 @@
                     <input class="toppings" type="checkbox" name="Topping" value="Green Peppers">Green Peppers<br>
                     <input class="toppings" type="checkbox" name="Topping" value="Chillies">Chillies<br>
                 </div>
-
+                
                 <div class="menu right">
                     <h3>Meats</h3>
                     <input class="toppings" type="checkbox" name="Topping" value="Pepperoni">Pepperoni<br>
@@ -51,10 +56,28 @@
                     <div id="showText"></div>
                     <div id="totalPrice"></div>
                 </div>
+                    
+
+            
            </form>
            
+           <div class="box">   
+                    <button class="open-button" onclick="openForm()">Open Form</button>
+                    <div id="myForm" class="form-popup">
+                    <ul><form class="form-container" name="Form" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                        <p>Please enter your details below and we'll call you when your pizza is a cooking!</p>
+                        <li><input name="fname" type="text" value="" placeholder="First Name" required></li>
+                        <li><input name="lname" type="text" value="" placeholder="Last Name" required></li>
+                        <li><input name="numb" type="text" value="" placeholder="Contact Number" required></li>
+                        <li><input type="submit" value="Click to Submit"></li>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form></ul>
+                    </div>
+                        
+           </div>
+
         </div>
 
     </body>
-
+    <footer id="foot">This is a footer</footer>
 </html>
