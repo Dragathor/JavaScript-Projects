@@ -24,3 +24,4 @@ JavaScript Fundamentals - Started
 1.2.10 Finished Calculator Project
 1.2.11 Finished Pizza_Javascript page
 1.3.1 Finished AJAX Basics
+1.3.2 Finished jQuery Assignment
