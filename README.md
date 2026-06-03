@@ -36,3 +36,4 @@ JavaScript Fundamentals - Started
         Bookmark Challenge
         Sticky Challenge
 1.3.4.5 Applied Automatic Slideshow Challenge to Calculator
+1.3.5 Finished to do list and started Portfolio Upgrade Assignment
