@@ -22,3 +22,7 @@ Has a slideshow behind the keys.
 ### Basic ToDo List
 An input window that creates a list of your tasks in below the input.
 Tasks are stored in local browser memory for later reference until removed by the user clicking the remove X button.
+
+### Javascript Exercises
+
+A folder containing various practice tasks compleated throughout Pitman-Training javascript.
