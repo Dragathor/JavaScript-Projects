@@ -37,3 +37,4 @@ JavaScript Fundamentals - Started
         Sticky Challenge
 1.3.4.5 Applied Automatic Slideshow Challenge to Calculator
 1.3.5 Finished to do list and started Portfolio Upgrade Assignment
+1.4.0 Move main projects out and reorganised for clarity
